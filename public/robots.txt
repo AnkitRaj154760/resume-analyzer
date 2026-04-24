@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://resumecheckkaro.nayalsaurav.tech
+
+# Sitemaps
+Sitemap: https://resumecheckkaro.nayalsaurav.tech/sitemap.xml
