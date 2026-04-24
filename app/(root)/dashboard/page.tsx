@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     title: "Dashboard - Resume Check Karo",
     description:
       "Upload and analyze your resume with AI-powered insights. Track your resume score and ATS compatibility.",
-    url: "https://resumecheckkaro.nayalsaurav.tech/dashboard",
+    url: "https://resume-analyzer.vercel.app/dashboard",
     siteName: "Resume Check Karo",
     images: [
       {
-        url: "https://resumecheckkaro.nayalsaurav.tech/og-image2.png",
+        url: "https://resume-analyzer.vercel.app/og-image2.png",
         width: 1200,
         height: 630,
         alt: "Resume Check Karo Dashboard Preview",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Dashboard - Resume Check Karo",
     description:
       "Upload and analyze your resume with AI-powered insights on your Dashboard.",
-    images: ["https://resumecheckkaro.nayalsaurav.tech/og-image2.png"],
+    images: ["https://resume-analyzer.vercel.app/og-image2.png"],
   },
 };
 

@@ -17,12 +17,8 @@ export const metadata: Metadata = {
   description:
     "Analyze your resume with AI-powered insights. Get instant feedback on ATS compatibility, keyword optimization, and formatting to improve your job application success rate.",
   keywords: [
-    "nayalsaurav",
-    "Saurav Nayal",
-    "nayal_saurav",
-    "resumecheckkaro",
-    "resumecheckkaro.nayalsaurav.tech",
-    "nayalsaurav.tech",
+    "Ankit Raj",
+    "AnkitRaj154760",
     "resume analyzer",
     "ATS checker",
     "resume scanner",
@@ -32,16 +28,16 @@ export const metadata: Metadata = {
     "ATS compatibility",
     "resume score",
   ],
-  authors: [{ name: "nayalsaurav" }],
+  authors: [{ name: "Ankit Raj" }],
   openGraph: {
     title: "Resume Check Karo - Resume Analyzer & ATS Checker",
     description:
       "Analyze your resume with AI-powered insights. Get instant feedback on ATS compatibility, keyword optimization, and formatting to improve your job application success rate.",
-    url: "https://resumecheckkaro.nayalsaurav.tech",
+    url: "https://resume-analyzer.vercel.app",
     siteName: "Resume Check Karo",
     images: [
       {
-        url: "https://resumecheckkaro.nayalsaurav.tech/og-image.png",
+        url: "https://resume-analyzer.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Resume Check Karo - Resume Analyzer & ATS Checker",
@@ -55,7 +51,7 @@ export const metadata: Metadata = {
     title: "Resume Check Karo - Resume Analyzer & ATS Checker",
     description:
       "Analyze your resume with AI-powered insights. Get instant feedback on ATS compatibility, keyword optimization, and formatting.",
-    images: ["https://resumecheckkaro.nayalsaurav.tech/og-image.png"],
+    images: ["https://resume-analyzer.vercel.app/og-image.png"],
   },
   robots: {
     index: true,
