@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Resume Check Karo 🚀
 
-## Getting Started
+**Resume Check Karo** is an AI-powered resume analyzer and ATS (Applicant Tracking System) checker. It helps job seekers optimize their resumes for specific job descriptions by providing instant, actionable feedback on ATS compatibility, tone, structure, and skills.
 
-First, run the development server:
+## ✨ Features
+- **AI Resume Analysis:** Uses Google's Gemini AI to scan your resume against a target job description.
+- **ATS Scoring:** Get a concrete ATS compatibility score with detailed suggestions for improvement.
+- **Category-based Feedback:** Insights broken down into ATS, Tone & Style, Content, Structure, and Skills.
+- **Secure Authentication:** User login and management powered by Clerk.
+- **Cloud Storage:** Fast and reliable resume file uploads handled by ImageKit.
+- **Modern UI:** Built with Next.js 15, Tailwind CSS, and Framer Motion for a smooth, responsive experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
+- **Frontend Framework:** Next.js 15 (App Router)
+- **Styling:** Tailwind CSS
+- **Authentication:** Clerk
+- **Database:** PostgreSQL (Supabase)
+- **ORM:** Prisma
+- **AI Integration:** Google GenAI SDK (`gemini-2.5-flash`)
+- **File Uploads:** ImageKit
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AnkitRaj154760/resume-analyzer.git
+   cd resume-analyzer
+   ```
 
-## Learn More
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root of your project and configure your keys for Supabase, Clerk, Google AI, and ImageKit.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Initialize Database:**
+   ```bash
+   npx prisma generate
+   npx prisma db push
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to see the app.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
