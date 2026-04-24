@@ -1,6 +1,8 @@
 # Resume Check Karo 🚀
 
- live demo -> https://resume-analyzer-gray-nine.vercel.app/
+  live demo -> https://resume-analyzer-gray-nine.vercel.app
+
+
 **Resume Check Karo** is an AI-powered resume analyzer and ATS (Applicant Tracking System) checker. It helps job seekers optimize their resumes for specific job descriptions by providing instant, actionable feedback on ATS compatibility, tone, structure, and skills.
 
 ## ✨ Features
